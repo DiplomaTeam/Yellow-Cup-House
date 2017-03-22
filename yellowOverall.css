@@ -6,7 +6,8 @@ Sheet 1 - text formatting
 
 
 /* Background */
-body {background-color: cornsilk; }
+
+body {background-color: pink; }    /* changed background from cornsilk to pink to test github */
 
 /* Fonts */
 h1 {font-family: 'Pangolin', cursive;}
