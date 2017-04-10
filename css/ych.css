@@ -1,0 +1,211 @@
+/* Style Sheet for Yellow Cup House:
+    ** EF = Elmarie Fryer (NCIRL Student #: 16135296)
+    ** FM = Filip Minarik (NCIRL Student #: 16135261)
+    */
+
+
+/* General appearance (EF)*/
+    html {
+    background: #e6e9e9;
+        }
+    body {
+        background: #a09080;
+        color: antiquewhite;
+        font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        line-height: 1.5;
+        margin: 0 auto;
+        width: 80%;
+        padding: 1em 1em 1em 1em;
+        }
+
+
+/*    img {
+        width: 20%; height: 10%; float: left;
+    }*/
+
+    table {
+        border: 0.2em solid saddlebrown; 
+        width: 100%;
+    }
+    th, td { 
+        border: 0.1em solid saddlebrown; 
+        padding: 1px;      
+        margin: 2px; 
+    }       
+
+
+
+/* Fonts (EF)
+    Based on the font used for the borchures
+    <link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    */
+    <link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
+
+
+    /*Links in the text */
+    a { color: inherit;
+        text-decoration: none; }
+    a:link { color: inherit;
+        text-decoration: none;} 
+    a:visited { color: inherit;
+        text-decoration: underline; }
+    a:hover { 
+        color: gold; }
+    /*lists */
+    ul { 
+        list-style-type: circle; 
+        color: antiquewhite;}
+    ul li a { 
+        font-family: cursive} 
+
+    .ych_writing {                    /* message from owners - handwriting style */
+        font-family: "Euphoria Script", cursive;        
+        text-align: center;
+        }
+    .ych_logo {                    /* logo */
+        color: gold;    
+        font-size: 2em;    
+        text-align: left;
+        padding: 0; margin: 0;
+        }
+
+/* Setting up divisions for page areas */
+/* all pages */
+.ych_footer{
+    width: 100%;
+    margin 1em; 
+    padding: 1em;
+    }
+
+.ych_header{    /* header where we put the navigation menu and the site name */
+    width: 100%; /*makes the menu width the same as the window width*/ 
+    float: left;/*floats the list left*/
+    margin: 0 0 0 0; /*removes margin and padding*/
+    padding: 0;
+    list-style-type: none;
+    background-color: #708090;
+    border-bottom: 0.2em solid #000;
+    border-top: 0.2em solid #000;
+    border-left: 0.2em solid #000;  
+    border-right: 0.2em solid #000;
+    }
+
+.ych_header ul { 
+    list-style: none; /*removes bullets from the list*/ 
+    } 
+.ych_header li {
+    float: left; /*floats list items left*/
+    width: 20%;
+    text-align: center;
+    }
+.ych_header li a {
+    font-family: inherit;font: inherit;color: inherit;
+    color: black;
+    display: block; /*fills up the entire list item and makes the whole area clickable*/
+    padding: 0.1em; /*padding will space them out a bit*/ 
+    text-decoration: none; /*removes the underline from the anchor*/ 
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+
+.ych_header li a:hover {
+    color: gold;
+    background-color: #a09080;
+    }
+
+
+
+.ych_main{
+    float:left; 
+	width: 100%;
+    }
+
+/* homepage only */
+.ych_homeLeft{
+	
+	float:left; 
+	width: 20%;
+	margin: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    }
+.ych_homeMiddle{
+    float: left;
+    width: 60% ;
+	margin: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    }
+.ych_homeRightTop{
+    float: right;
+    width: 20%;
+    margin: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    }
+.ych_homeRightMiddle{
+    float: right;
+    width: 20%;
+    margin: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    }
+.ych_homeRightBottom{
+    float: right;
+    width: 20%;
+    margin: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    }
+
+/* for the galley page */
+.ych_galleryLeft{
+    float: left;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    }	
+.ych_galleryMiddle{
+    float: left;
+    width: 40%;
+    margin: 1em;
+    padding: 1em;
+    }
+
+.ych_galleryRight{
+    float: right;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    }
+.ych_offers{
+    float: right;
+    width: 40%;
+    }
+.ych_bookclub{
+    float: left;
+    width: 50%;
+    }
+.ych_column1 { 
+    float:left; width: 33%; border: 1px solid; 
+} 
+.ych_column2 { 
+    float:left; width: 33%; border: 1px solid; 
+} 
+.ych_column3 { 
+    float:left; width: 33%; border: 1px solid; 
+}
+
+
