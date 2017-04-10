@@ -4,7 +4,11 @@
     */
 
 
-/* General appearance (EF)*/
+/* General appearance (EF)
+ 	Load 2 google stylesheets in the html header:
+		<link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  		<link href='//fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
+	*/
     html {
     background: #e6e9e9;
         }
@@ -36,15 +40,7 @@
 
 
 
-/* Fonts (EF)
-    Based on the font used for the borchures
-    <link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-    */
-    <link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-    <link href='//fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
-
-
-    /*Links in the text */
+    /*Links in the text (EF)*/
     a { color: inherit;
         text-decoration: none; }
     a:link { color: inherit;
@@ -71,12 +67,11 @@
         padding: 0; margin: 0;
         }
 
-/* Setting up divisions for page areas */
+/* Setting up divisions for page areas (EF) */
 /* all pages */
 .ych_footer{
     width: 100%;
-    margin 1em; 
-    padding: 1em;
+    
     }
 
 .ych_header{    /* header where we put the navigation menu and the site name */
