@@ -4,7 +4,7 @@
     */
 
 
-/* General appearance (EF)
+/* General appearance
  	Load 2 google stylesheets in the html header:
 		<link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
   		<link href='//fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
@@ -17,17 +17,28 @@
         color: antiquewhite;
         font-family: "Comfortaa", Helvetica, Arial, sans-serif;
         font-size: 1em;
-        line-height: 1.5;
+        line-height: 1;
         margin: 0 auto;
-        width: 80%;
-        padding: 1em 1em 1em 1em;
+        width: 98%;
+        padding: 1%;
+        float: left;
+        }    
+    header {
+        background: #a09080;
+        color: antiquewhite;
+        font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        line-height: 1;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        }    
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        line-height: 2em;
         }
-
-
-/*    img {
-        width: 20%; height: 10%; float: left;
-    }*/
-
+/*
     table {
         border: 0.2em solid saddlebrown; 
         width: 100%;
@@ -38,7 +49,7 @@
         margin: 2px; 
     }       
 
-
+*/
 
     /*Links in the text (EF)*/
     a { color: inherit;
@@ -59,20 +70,20 @@
     .ych_writing {                    /* message from owners - handwriting style */
         font-family: "Euphoria Script", cursive;        
         text-align: center;
+        font-size: 1.5em;
         }
     .ych_logo {                    /* logo */
         color: gold;    
-        font-size: 2em;    
+        font-size: 2em;  
+        float: left;  
         text-align: left;
         padding: 0; margin: 0;
         }
 
+
 /* Setting up divisions for page areas (EF) */
 /* all pages */
-.ych_footer{
-    width: 100%;
-    
-    }
+
 
 .ych_header{    /* header where we put the navigation menu and the site name */
     width: 100%; /*makes the menu width the same as the window width*/ 
@@ -92,7 +103,7 @@
     } 
 .ych_header li {
     float: left; /*floats list items left*/
-    width: 20%;
+    width: 15%;
     text-align: center;
     }
 .ych_header li a {
@@ -110,89 +121,12 @@
     background-color: #a09080;
     }
 
-
-
 .ych_main{
     float:left; 
 	width: 100%;
     }
 
-/* homepage only */
-.ych_homeLeft{
-	
-	float:left; 
-	width: 20%;
-	margin: 1em;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    }
-.ych_homeMiddle{
-    float: left;
-    width: 60% ;
-	margin: 1em;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    }
-.ych_homeRightTop{
-    float: right;
-    width: 20%;
-    margin: 1em;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    }
-.ych_homeRightMiddle{
-    float: right;
-    width: 20%;
-    margin: 1em;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    }
-.ych_homeRightBottom{
-    float: right;
-    width: 20%;
-    margin: 1em;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    }
 
-/* for the galley page */
-.ych_galleryLeft{
-    float: left;
-    width: 30%;
-    margin: 1em;
-    padding: 1em;
-    }	
-.ych_galleryMiddle{
-    float: left;
-    width: 40%;
-    margin: 1em;
-    padding: 1em;
-    }
-
-.ych_galleryRight{
-    float: right;
-    width: 30%;
-    margin: 1em;
-    padding: 1em;
-    }
-.ych_offers{
-    float: right;
-    width: 40%;
-    }
-.ych_bookclub{
-    float: left;
-    width: 50%;
-    }
 .ych_column1 { 
     float:left; width: 33%; border: 1px solid; 
 } 
@@ -202,5 +136,90 @@
 .ych_column3 { 
     float:left; width: 33%; border: 1px solid; 
 }
+
+
+/* homepage only */
+.ych_homeLeft{
+	float:left; 
+	width: 20%;
+	margin: 1%;
+    margin-left: 0;
+    padding: 2%;
+background: pink;
+    }
+.ych_homeMiddle{
+    float: left;
+    width: 45% ;
+	margin: 1%;
+    margin-left: 0;
+    padding: 2%;
+background: blue;
+    }
+.ych_homeRight{
+    float: left;
+    width: 20%;
+    margin: 1%;
+    margin-left: 0;
+    padding: 2%;
+background: orange;
+    }
+
+/* for the galley page */
+.ych_galleryTop{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1em;   
+    }
+.ych_galleryLeft{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    margin-left: 0;
+    padding: 1%;
+    }	
+.ych_galleryMiddle{
+    float: left;
+    width: 32%;
+    margin: 1%;
+    margin-left: 0;
+    padding: 1%;   
+    }
+.ych_galleryRight{
+    float: right;
+    width: 30%;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1%;    
+    }
+.ych_galleryJava{
+    float: right;
+    width: 30%;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1%;
+    background: #9999ff;    
+    }
+/* For the Special Offers PAge */
+.ych_offers{
+    float: left;
+    width: 40%;
+    border-color: black;
+    border: solid 0.15em;
+    border-radius: 25%;
+    margin: 2%;
+    padding: 1%;
+    }
+.ych_bookclub{
+    float: right;
+    width: 50%;
+    }
+
 
 

@@ -16,9 +16,8 @@
 		-->
 		<meta charset="UTF-8">
 		
-		<link rel="stylesheet" href="css/yellowOverall.css">
-		<link rel="stylesheet" href="css/yellowOther.css">
-		<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/ych.css">
+				<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
 		
 		<link rel="icon" href="images/tinyIcon.jpg" type="image/png"  >	
 		
@@ -42,11 +41,21 @@
         <h2>Find us</h2>
         
         </div>	
-        <div class='mainDetailsO'>
+        <div class='mainDetailsO' id="map" style="width:400px;height:400px;"></div>
 	
-        <p>This is where we will put very clever javascript with google maps</p>
-                
-        </div>	
+        <script>
+		function myMap() {
+		var mapOptions = {
+		center: new google.maps.LatLng(53.3450164, -6.255055),
+		zoom: 10,
+		mapTypeId: google.maps.MapTypeId.HYBRID
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+		</script>
+		
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUcVjeiTKYEVyCmo_0xB2ZHGhjHupLvNY&callback=myMap">
+		</script>       
         <div class='footerO'>
 	
         <table class='tableF'>
@@ -64,7 +73,7 @@
         We need a link for twitter
         </td>
         <td>
-            Address Phone number etc - Elmarie will provide
+            32 Pearse Street, Dublin 2 Phone number 086 246 8787
         </td>
         </tr>
         </table>
