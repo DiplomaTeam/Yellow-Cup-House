@@ -120,6 +120,10 @@
     color: gold;
     background-color: #a09080;
     }
+.ych_header a:hover {
+    color: gold;
+    background-color: #a09080;
+    }
 
 .ych_main{
     float:left; 
@@ -236,10 +240,13 @@ background: blue;
     float: left;
     width: 30%;
     padding-right: 1%;
+    margin-left: 5%;
 }
 .ych_menu{
     text-align: left;
     float: right;
     width: 50%;
-    padding-right: 1%;
+    padding-left: 1%;
+    margin-right: 5%;
+    
 }
