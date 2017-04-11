@@ -79,8 +79,15 @@
         text-align: left;
         padding: 0; margin: 0;
         }
-
-
+.ych_smallText {
+    font-size: 0.75em;
+    width: 90%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.ych_smallText table {
+    text-align: left;
+}
 /* Setting up divisions for page areas (EF) */
 /* all pages */
 
@@ -128,6 +135,13 @@
 .ych_main{
     float:left; 
 	width: 100%;
+    }
+.ych_map{ 
+	width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
     }
 
 
