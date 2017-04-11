@@ -70,7 +70,7 @@
     .ych_writing {                    /* message from owners - handwriting style */
         font-family: "Euphoria Script", cursive;        
         text-align: center;
-        font-size: 1em;
+        font-size: 1.25em;
         }
     .ych_logo {                    /* logo */
         color: gold;    
@@ -141,14 +141,14 @@
 /* homepage only */
 .ych_homeLeft{
 	float:left; 
-	width: 20%;
+	width: 24%;
 	margin: 1%;
     margin-left: 0;
     padding: 2%;
     }
 .ych_homeMiddle{
     float: left;
-    width: 44% ;
+    width: 40% ;
 	margin: 1%;
     margin-left: 0;
     padding: 2%;
@@ -222,6 +222,10 @@ background: blue;
     margin: 2%;
     padding: 1%;
     }
+.ych_imgR {
+    float: right;
+    margin-right: 5%;
+}
 .ych_bookclub{
     float: right;
     width: 50%;
