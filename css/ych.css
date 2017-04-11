@@ -184,13 +184,17 @@ background: blue;
     margin-left: 0;
     padding: 1%;
     }	
-.ych_galleryMiddle{
+.ych_galleryFrame{
     float: left;
-    width: 32%;
+    width: 30%;
     margin: 1%;
     margin-left: 0;
-    padding: 1%;   
-    }
+    padding: 1%;
+    border-color: antiquewhite;
+    border: solid 0.15em;
+    border-radius: 5%;
+    }	
+
 .ych_galleryRight{
     float: right;
     width: 30%;
@@ -200,7 +204,7 @@ background: blue;
     padding: 1%;    
     }
 .ych_galleryJava{
-    float: right;
+    float: left;
     width: 30%;
     margin: 1%;
     margin-right: 0;
@@ -223,9 +227,15 @@ background: blue;
     width: 50%;
     }
 /*Menus*/
-.ych_menu{
+.ych_menuSmall{
     text-align: left;
     float: left;
     width: 30%;
+    padding-right: 1%;
+}
+.ych_menu{
+    text-align: left;
+    float: right;
+    width: 50%;
     padding-right: 1%;
 }
