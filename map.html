@@ -1,74 +1,89 @@
-<!Web Group Project>
-<!Elmarie Fryer (16135296), Filip Minarik (16135261), Patrick Young (16137621)>
-
-   
+<!--Web Group Project
+Elmarie Fryer (16135296), Filip Minarik (16135261)
+Yellow Cup House Coffee Shop Website -->
+    
 <!DOCTYPE html >
    
-    <html lang="en-IE">
+<html lang="en-IE">
 
-	<head>
-		<title> Yellow Cup House </title>
+<head>
+    <title> Yellow Cup House Find Us</title>
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<!-- This looks like a comment - but IE9 will process this comment differently.
 		You'll find this piece a code from a lot of webtools - the newer files won't have this in.
 		-->
-		<meta charset="UTF-8">
-		
-		<link rel="stylesheet" href="css/ych.css">
-				<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
-		
+    <meta charset="UTF-8">
+    <!-- meta data to allow searching of this site-->
+    <meta name = "keywords" content="coffee, dublin, yellow, trinity, tea, lunch, cake, cheap, cup, house, value, good, shop">
+    
+    <!-- stylesheets (incl Google fonts) and javascript used -->
+        <link rel="stylesheet" href="css/ych.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
+        <link href='//fonts.googleapis.com/css?family=Euphoria%20Script' rel='stylesheet'>	
+        <script src="js/ych.js"></script>
+    
+    <!-- Adding an icon to the browser tab-->
 		<link rel="icon" href="images/tinyIcon.jpg" type="image/png"  >	
 		
-	</head>
+</head>
 
-	<header>
-	    <!-- Header and Toolbar -->
+<body>
     <div class='ych_header'>
-	   <ul>
-	        <img class = 'ych_logo' src="images/LogoBasic.jpg" alt="Yellow Coffee House Logo" height = "50" width = "50" />
-	        <p class = 'ych_logo'>Yellow Cup House</p>
-        
-        </ul>  
-        <br/>     
+            <!-- Header and Toolbar in a separate section so that the formatting can be different-->
+        <img class = 'ych_logo' src="images/LogoBasic.jpg" alt="Yellow Coffee House Logo" height = 5% width = 5% />
+ 	    <p class = 'ych_logo'>Yellow Cup House</p>
+        <br/>
         <ul>    
             <li><a href ="index.html">Homepage</a></li>    
             <li><a href ="map.html">Find us</a></li>
             <li><a href ="menu.html">Our menu</a></li>
             <li><a href ="offers.html">Special Offers</a></li>
             <li><a href ="gallery.html">Gallery</a></li>
-        </ul>     
-       </div>
-       </header>
-       <body>	
-        <h1>Find us</h1>
-        <div class='ych_map'>	
-	
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.9016688046945!2d-6.255055584441907!3d53.34501638251238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e90112b3685%3A0xc2ab358d2e3b063e!2s32+Pearse+St%2C+Dublin+2%2C+D02+FT65%2C+Ireland!5e0!3m2!1sen!2suk!4v1491840976082" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>     
- 
-        </div>
+        </ul>      
+    </div>		
+
+    <h1>Find us</h1>
+       <!-- This page is for an interactive map.  It is aimed at mobile device users and has been tested on an andriod device where clicking on the map opens up the google map app allowing you to easily find the shop -->
+       
+    <div class='ych_map'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.9016688046945!2d-6.255055584441907!3d53.34501638251238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e90112b3685%3A0xc2ab358d2e3b063e!2s32+Pearse+St%2C+Dublin+2%2C+D02+FT65%2C+Ireland!5e0!3m2!1sen!2suk!4v1491840976082" 
+        width=100% height=100% allowfullscreen></iframe>     
+        <!-- Code taken from CoderDojo: Build Your Own Website: Create with Code (CoderDojo Nano) Kindle Edition 
+        Adapted to remove frameborder and sizing not css compliant as per the html validation-->
+
+    </div>
                
     <div class='ych_header'>
-	<p></p>
-        <table class = 'ych_smallText'>
-        <tr>
-            <td>
-            <a href="mailto:    ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List" target="_top" target="_blank" >Join our mailing list</a>
-            <br/>
-            <a href="mailto:    ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List%20Unsubscribe" target="_top" target="_blank" >Unsubscribe from our mailing list</a>
-            </td>
-        <td>
-        <a href ="https://www.facebook.com/yellowcuphouse/?fref=ts" target="_blank">Visit us on Facebook</a>
-        </td>
-        <td>
-            32 Pearse Street, Dublin 2<br/>
-            Phone number 086 246 8787<br/>
-            <a href="mailto:    ROMANIV@ie.ibm.com?Subject=YCH%20Contact" target="_top" target="_blank" >Send us an e-mail</a>
-            <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto-->
-        </td>
-        </tr>
+        <!-- This is the footer at the bottom of the page.  For a consistent lookk and feel accross the site the same class is used in this division as in the header, with the addition of a smaller font in the table used for the footer details
+        A table is used rather than floating divisions to facilitate future addition of a form for contact us -->
+	    <table class = 'ych_smallText'>
+            <tr>
+                <td>
+                    <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List" target="_top">Join our mailing list</a>
+                    <br/>
+                    <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List%20Unsubscribe" target="_top">Unsubscribe from our mailing list</a>
+                </td>
+                <td>
+                    <a href ="https://www.facebook.com/yellowcuphouse/?fref=ts" target="_blank">Visit us on Facebook</a>
+                </td>
+                <td>
+                    32 Pearse Street, Dublin 2<br/>
+                    Phone number 086 246 8787<br/>
+                    <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Contact" target="_top">Send us an e-mail</a>
+                    <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto-->
+                </td>
+                <td>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                    </a>
+                </td>
+            </tr>
         </table>
-    </div>	
-	</body>
+    </div>
+    	
+</body>
 </html>

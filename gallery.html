@@ -1,112 +1,118 @@
-<!Web Group Project>
-<!Elmarie Fryer (16135296), Filip Minarik (16135261), Patrick Young (16137621)>
-
-   
+<!--Web Group Project
+Elmarie Fryer (16135296), Filip Minarik (16135261)
+Yellow Cup House Coffee Shop Website -->
+    
 <!DOCTYPE html >
    
 <html lang="en-IE">
 
 <head>
-		<title> Yellow Cup House </title>
+    <title> Yellow Cup House Gallery</title>
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<!-- This looks like a comment - but IE9 will process this comment differently.
 		You'll find this piece a code from a lot of webtools - the newer files won't have this in.
 		-->
-		<meta charset="UTF-8">
-		
-		<link rel="stylesheet" href="css/ych.css">
-		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
-		<link href='//fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>	
+    <meta charset="UTF-8">
+    <!-- meta data to allow searching of this site-->
+    <meta name = "keywords" content="coffee, dublin, yellow, trinity, tea, lunch, cake, cheap, cup, house, value, good, shop">
+    
+    <!-- stylesheets (incl Google fonts) and javascript used -->
+        <link rel="stylesheet" href="css/ych.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
+        <link href='//fonts.googleapis.com/css?family=Euphoria%20Script' rel='stylesheet'>	
+        <script src="js/ych.js"></script>
+    
+    <!-- Adding an icon to the browser tab-->
 		<link rel="icon" href="images/tinyIcon.jpg" type="image/png"  >	
 		
 </head>
 
-<header>
-    <!-- Header and Toolbar -->
+<body>
+  
     <div class='ych_header'>
-	   <ul>
-	        <img class = 'ych_logo' src="images/LogoBasic.jpg" alt="Yellow Coffee House Logo" height = "50" width = "50" />
-	        <p class = 'ych_logo'>Yellow Cup House</p>
-        
-        </ul>  
-        <br/>     
+            <!-- Header and Toolbar in a separate section so that the formatting can be different-->
+        <img class = 'ych_logo' src="images/LogoBasic.jpg" alt="Yellow Coffee House Logo" height = 5% width = 5% />
+ 	    <p class = 'ych_logo'>Yellow Cup House</p>
+        <br/>
         <ul>    
             <li><a href ="index.html">Homepage</a></li>    
             <li><a href ="map.html">Find us</a></li>
             <li><a href ="menu.html">Our menu</a></li>
             <li><a href ="offers.html">Special Offers</a></li>
             <li><a href ="gallery.html">Gallery</a></li>
-        </ul>     
+        </ul>      
     </div>	
-</header>
-<body>            
-       <h1>Gallery</h1>
+  
+    <h1>Gallery</h1>
        <!--Each gallery item is in a division.  There's a Java division for items related to the supplier and a framed division for items with a little frame around them.    -->
+       
     <div class='ych_galleryLeft'>
-	    
-    <h4>Our facilities are state of the art.</h4>
+        <h4>Our facilities are state of the art.</h4>
+            <br/>
+            <img src="images/Kitchen01.jpg" alt="New kitchen" height = 100% width = 100% />
+    </div>
+    	
+    <div class='ych_galleryFrame'> 
        <br/>
-        <img src="images/Kitchen01.jpg" alt="New kitchen" height = 100% width = 100% />
-        
-    </div>	
-    <div class='ych_galleryFrame'>
-	    
-       <br/>
-        <a href ="https://www.yelp.ie/biz/yellow-cup-cafe-dublin" target="_blank" ><h4>Check out our review on Yelp:</h4> <h5>This just opened from across Trinity and I had been walking by it for more than a month really interested in trying it! My friend and I decided to stop in for breakfast on a whim and we were very surprised by how affordable it was! You could get a coffee and a breakfast sandwich for 4€. They had a variety of pastries, porridge, and full breakfast items. The place itself was very clean and I really enjoyed the decorations too! I got a combined coffee and egg mayo and bacon sandwich which turned out to be better than I expected.</h5> </a>
-        
+        <a href ="https://www.yelp.ie/biz/yellow-cup-cafe-dublin" target="_blank" ><h4>Check out our review on Yelp:</h4> <h5>This just opened from across Trinity and I had been walking by it for more than a month really interested in trying it! My friend and I decided to stop in for breakfast on a whim and we were very surprised by how affordable it was! You could get a coffee and a breakfast sandwich for 4€. They had a variety of pastries, porridge, and full breakfast items. The place itself was very clean and I really enjoyed the decorations too! I got a combined coffee and egg mayo and bacon sandwich which turned out to be better than I expected.</h5> </a>   
     </div>	    
     
     <div class='ych_galleryJava'>
 	    <h4>The perfect cuppa</h4>
-	    <a href ="https://www.javarepublic.com/ "target="_blank"  >We source our coffee from Java Republic
-        <br/>
-        <img src="images/PerfectCup01.jpg" alt="Perfect cup of coffee" height = 100% width = 100% />
-        </a>
-
-        
+	        <a href ="https://www.javarepublic.com/" target="_blank">We source our coffee from Java Republic
+            <br/>
+            <img src="images/PerfectCup01.jpg" alt="Perfect cup of coffee" height = 100% width = 100% />
+            </a>
     </div>    
     
     <div class='ych_galleryLeft'>
 	    <h4>Tasty!</h4>
-       <br/>
-        <img src="images/Cake01.jpg" alt="Yummy Cake" height = 100% width = 100% />
-        <br/>
-        <img src="images/Cake02.jpg" alt="Yummy Chocolate Croissant" height = 100% width = 100% />
+            <br/>
+            <img src="images/Cake01.jpg" alt="Yummy Cake" height = 100% width = 100% />
+            <br/>
+            <img src="images/Cake02.jpg" alt="Yummy Chocolate Croissant" height = 100% width = 100% />
     </div>	
 
     <div class='ych_galleryLeft'>
 	    <h4>Our Shop Front</h4>
-       <br/>
-        <img src="images/front01.jpg" alt="Yummy Cake" height = 100% width = 100% />
+            <br/>
+            <img src="images/front01.jpg" alt="Yummy Cake" height = 100% width = 100% />
     </div>	    
 	
-    <div class='ych_galleryFrame'>
-	    
+    <div class='ych_galleryFrame'> 
        <br/>
-        <a href ="https://www.tripadvisor.ie/Restaurant_Review-g186605-d12236044-Reviews-Yellow_Cup_House-Dublin_County_Dublin.html" target="_blank" ><h4>Check out our review on Trip Advisor:</h4> <h5>I pass this place on my way to work, they're doing €2 coffee (in the morning at any rate) right now &amp; it's definitely worth it, they have their loyalty cards as well - first free coffee this morning :) <br/> The staff are very friendly and both make a yummy mocha - can't recall their names, sorry guys! <br/>I've been enjoying their "No. 5" sandwich, €5 for roasted veg &amp; buffalo mozzarella on ciabatta... yes please! <br/>Tried breakfast here one morning - I had an omelette which worked out quite nice, my companion had the full Irish breakfast - the eggs were a tiny bit underdone, that said, we were there at 8.10 am &amp; the first breakfasters of the day. </h5> </a>
-        
+        <a href ="https://www.tripadvisor.ie/Restaurant_Review-g186605-d12236044-Reviews-Yellow_Cup_House-Dublin_County_Dublin.html" target="_blank" >     <h4>Check out our review on Trip Advisor:</h4> <h5>I pass this place on my way to work, they're doing €2 coffee (in the morning at any rate) right now &amp; it's definitely worth it, they have their loyalty cards as well - first free coffee this morning :) <br/> The staff are very friendly and both make a yummy mocha - can't recall their names, sorry guys! <br/>I've been enjoying their "No. 5" sandwich, €5 for roasted veg &amp; buffalo mozzarella on ciabatta... yes please! <br/>Tried breakfast here one morning - I had an omelette which worked out quite nice, my companion had the full Irish breakfast - the eggs were a tiny bit underdone, that said, we were there at 8.10 am &amp; the first breakfasters of the day. </h5> </a>
     </div>
    
     <div class='ych_header'>
-	<table class = 'ych_smallText'>
-        <tr>
-            <td>
-            <a href="mailto:    ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List" target="_top" target="_blank" >Join our mailing list</a>
-            <br/>
-            <a href="mailto:    ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List%20Unsubscribe" target="_top" target="_blank" >Unsubscribe from our mailing list</a>
-            </td>
-        <td>
-        <a href ="https://www.facebook.com/yellowcuphouse/?fref=ts" target="_blank">Visit us on Facebook</a>
-        </td>
-        <td>
-            32 Pearse Street, Dublin 2<br/>
-            Phone number 086 246 8787<br/>
-            <a href="mailto:    ROMANIV@ie.ibm.com?Subject=YCH%20Contact" target="_top" target="_blank" >Send us an e-mail</a>
-            <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto-->
-        </td>
-        </tr>
+        <!-- This is the footer at the bottom of the page.  For a consistent lookk and feel accross the site the same class is used in this division as in the header, with the addition of a smaller font in the table used for the footer details
+        A table is used rather than floating divisions to facilitate future addition of a form for contact us -->
+	    <table class = 'ych_smallText'>
+            <tr>
+                <td>
+                    <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List" target="_top">Join our mailing list</a>
+                    <br/>
+                    <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Mailing%20List%20Unsubscribe" target="_top">Unsubscribe from our mailing list</a>
+                </td>
+                <td>
+                    <a href ="https://www.facebook.com/yellowcuphouse/?fref=ts" target="_blank">Visit us on Facebook</a>
+                </td>
+                <td>
+                    32 Pearse Street, Dublin 2<br/>
+                    Phone number 086 246 8787<br/>
+                    <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Contact" target="_top">Send us an e-mail</a>
+                    <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto-->
+                </td>
+                <td>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                    </a>
+                </td>
+            </tr>
         </table>
     </div>
     	

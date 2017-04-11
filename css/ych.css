@@ -95,8 +95,11 @@
 .ych_header{    /* header where we put the navigation menu and the site name */
     width: 100%; /*makes the menu width the same as the window width*/ 
     float: left;/*floats the list left*/
-    margin: 0 0 0 0; /*removes margin and padding*/
-    padding: 0;
+    margin: 0 0 0 0; /*removes marging*/
+    padding-right: 0;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 0.5%;
     list-style-type: none;
     background-color: #708090;
     border-bottom: 0.2em solid #000;
@@ -117,7 +120,7 @@
     font-family: inherit;font: inherit;color: inherit;
     color: black;
     display: block; /*fills up the entire list item and makes the whole area clickable*/
-    padding: 0.1em; /*padding will space them out a bit*/ 
+    padding: 0.1em; /*padding will space them out a bit but not as much as the title*/ 
     text-decoration: none; /*removes the underline from the anchor*/ 
     font-weight: bold;
     font-size: 1.2em;
@@ -143,18 +146,6 @@
     margin-bottom: 5%;
     text-align: center;
     }
-
-
-.ych_column1 { 
-    float:left; width: 33%; border: 0.5% solid; 
-} 
-.ych_column2 { 
-    float:left; width: 33%; border: 0.5% solid; 
-} 
-.ych_column3 { 
-    float:left; width: 33%; border: 0.5% solid; 
-}
-
 
 /* homepage only */
 .ych_homeLeft{
