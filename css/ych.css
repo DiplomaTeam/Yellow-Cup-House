@@ -70,7 +70,7 @@
     .ych_writing {                    /* message from owners - handwriting style */
         font-family: "Euphoria Script", cursive;        
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1em;
         }
     .ych_logo {                    /* logo */
         color: gold;    
@@ -128,13 +128,13 @@
 
 
 .ych_column1 { 
-    float:left; width: 33%; border: 1px solid; 
+    float:left; width: 33%; border: 0.5% solid; 
 } 
 .ych_column2 { 
-    float:left; width: 33%; border: 1px solid; 
+    float:left; width: 33%; border: 0.5% solid; 
 } 
 .ych_column3 { 
-    float:left; width: 33%; border: 1px solid; 
+    float:left; width: 33%; border: 0.5% solid; 
 }
 
 
@@ -145,11 +145,10 @@
 	margin: 1%;
     margin-left: 0;
     padding: 2%;
-background: pink;
     }
 .ych_homeMiddle{
     float: left;
-    width: 45% ;
+    width: 44% ;
 	margin: 1%;
     margin-left: 0;
     padding: 2%;
@@ -161,7 +160,10 @@ background: blue;
     margin: 1%;
     margin-left: 0;
     padding: 2%;
-background: orange;
+    border-color: antiquewhite;
+    border: solid 0.15em;
+    border-radius: 25%;
+    text-align: center;
     }
 
 /* for the galley page */
@@ -220,6 +222,10 @@ background: orange;
     float: right;
     width: 50%;
     }
-
-
-
+/*Menus*/
+.ych_menu{
+    text-align: left;
+    float: left;
+    width: 30%;
+    padding-right: 1%;
+}
