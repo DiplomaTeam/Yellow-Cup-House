@@ -93,7 +93,7 @@
 
 
 .ych_header{    /* header where we put the navigation menu and the site name */
-    width: 100%; /*makes the menu width the same as the window width*/ 
+    width: 96%; /*makes the menu width the same as the window width - cannot be 100% due to the padding*/ 
     float: left;/*floats the list left*/
     margin: 0 0 0 0; /*removes marging*/
     padding-right: 0;
