@@ -93,7 +93,6 @@
 
 
 .ych_header{    /* header where we put the navigation menu and the site name */
-                /* footer is exactly the same except for the fixed position*/
     width: 96%; /*makes the menu width the same as the window width - cannot be 100% due to the padding*/ 
     float: left;/*floats the list left*/
     margin: 0 0 0 0; /*removes marging*/
@@ -107,7 +106,6 @@
     border-top: 0.2em solid #000;
     border-left: 0.2em solid #000;  
     border-right: 0.2em solid #000;
-    position: fixed; /* Make it stick, even on scroll */
     }
 
 .ych_header ul { 
@@ -135,22 +133,6 @@
 .ych_header a:hover {
     color: gold;
     background-color: #a09080;
-    }
-
-.ych_footer{    /*same as the header - without the position being fixed */
-    width: 98%; /*makes the menu width the same as the window width - cannot be 100% due to the padding  => 2 wider that the heading because we don't have the picture, etc with padding - so less spaces used by that*/ 
-    float: left;/*floats the list left*/
-    margin: 0 0 0 0; /*removes marging*/
-    padding-right: 0;
-    padding-top: 1%;
-    padding-left: 2%;
-    padding-bottom: 0.5%;
-    list-style-type: none;
-    background-color: #708090;
-    border-bottom: 0.2em solid #000;
-    border-top: 0.2em solid #000;
-    border-left: 0.2em solid #000;  
-    border-right: 0.2em solid #000;
     }
 
 .ych_main{
