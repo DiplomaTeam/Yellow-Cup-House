@@ -315,20 +315,20 @@ https://jigsaw.w3.org/css-validator/validator
         }
     .ych_homeLeft{
 	    float:left; 
-    	width: 47%;
+    	width: 45%;
 	    margin: 1%;
-        padding: 2%;
+        padding: 1%;
         }
     .ych_homeMiddle{
         float: left;
-        width: 47% ;
+        width: 45% ;
         margin-right: 1%;
         }
     .ych_homeRight{
         float: left;
-        width: 47%;
+        width: 45%;
         margin: 1%;
-        padding: 2%;
+        padding: 1%;
         }
     .ych_main{
         float:left; 
