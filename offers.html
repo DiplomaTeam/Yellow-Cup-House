@@ -11,13 +11,18 @@ Yellow Cup House Coffee Shop Website -->
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<!-- This looks like a comment - but IE9 will process this comment differently.
-		You'll find this piece a code from a lot of webtools - the newer files won't have this in.
-		-->
+		<!--[if lte IE 9]> 
+	    <script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+        <![endif]-->
     <meta charset="UTF-8">
     <!-- meta data to allow searching of this site-->
     <meta name = "keywords" content="coffee, dublin, yellow, trinity, tea, lunch, cake, cheap, cup, house, value, good, shop">
-    
+    <meta name = "author" content="Elmarie Fryer & Filip Minarik"/>
+    <meta name="description" content="Yellow Cup House Dublin Ireland"/>
+    <meta name="Copyright" content="Yellow Cup House, Dublin Ireland" />
+    <meta name="google-site-verification" content="" />
+        <!-- site will be set-up on google so that the owners can track statistics one it's live on it's permanent site with a .ie domain name -->
+
     <!--making site responsive -->    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -32,6 +37,7 @@ Yellow Cup House Coffee Shop Website -->
 		
 </head>
 <body>
+<div class = 'ych_pagewrap'> 
     <div class='ych_header'>
 
             <!-- Header and Toolbar in a separate section so that the formatting can be different-->
@@ -46,9 +52,34 @@ Yellow Cup House Coffee Shop Website -->
             <li><a href ="gallery.html">Gallery</a></li>
         </ul>      
     </div>	
-    
+    <div class='ych_title'>
     <h1>Special Offers and Events</h1>
-      	
+    </div> 	
+    <div class='ych_offers'>
+        <div class='ych_offerDetail'>
+            <img class = 'ych_imgR' src="images/offer01.jpg" alt="Special Offer Sign" height = "180" width = "120"/>
+            <h2>&#9749;     Daily offers instore</h2>
+            <h3>&#9749; Soup &amp; Panini €6</h3>
+	        <h3>&#9749; Coffee &amp; Scone €3.50</h3>
+	        <h3>&#9749; Daily Hot Meal €7.50</h3>
+	    </div>	
+    
+        <div class='ych_offerDetail'>
+	    <h2>
+	        For Free Office Delivery <br/>
+	        Contact us on 086 246 8787	
+	        </h2>
+        </div>	
+    
+        <div class='ych_offerDetail'>
+            <img class = 'ych_imgR' src="images/venue02.jpg" alt="Special Offer Sign" height = "120" width = "150"/>
+	        <h2>Have an event?  <br/>
+                Looking for a venue?</h2>
+            <h3>
+                <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Venue%20Query" target="_blank">E-mail us</a>
+            </h3>
+        </div>
+    </div>
     <div class='ych_bookclub'>
         <h3>
             Interested in joining one of our bookclubs?
@@ -137,28 +168,8 @@ Yellow Cup House Coffee Shop Website -->
 	        	    
 	    </table>    
 	    </form>			
-     
-    </div>
-    <div class='ych_offers'>
-        <img class = 'ych_imgR' src="images/offer01.jpg" alt="Special Offer Sign" height = "180" width = "120"/>
-        <h2>&#9749;     Daily offers instore</h2>
-        <h3>&#9749; Soup &amp; Panini €6</h3>
-	    <h3>&#9749; Coffee &amp; Scone €3.50</h3>
-	    <h3>&#9749; Daily Hot Meal €7.50</h3>
-   </div>	
+    </div>  <!--end of bookclub form -->
     
-    <div class='ych_offers'>
-	<h2>For Free Office Delivery <br/>Contact us on 086 246 8787	</h2>
-    </div>	
-    
-    <div class='ych_offers'>
-        <img class = 'ych_imgR' src="images/venue02.jpg" alt="Special Offer Sign" height = "120" width = "150"/>
-	    <h2>Have an event?  <br/>
-           Looking for a venue?</h2>
-            <h3>
-            <a href="mailto:ROMANIV@ie.ibm.com?Subject=YCH%20Venue%20Query" target="_blank">E-mail us</a>
-            </h3>
-    </div>
     
     <div class='ych_footer'>
         <!-- This is the footer at the bottom of the page.  For a consistent lookk and feel accross the site the same class is used in this division as in the header, with the addition of a smaller font in the table used for the footer details
@@ -195,6 +206,6 @@ Yellow Cup House Coffee Shop Website -->
             </tr>
         </table>
     </div>
-    
+</div>    
 </body>
 </html>

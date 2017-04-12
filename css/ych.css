@@ -19,9 +19,6 @@ https://jigsaw.w3.org/css-validator/validator
         font-family: "Comfortaa", Helvetica, Arial, sans-serif;
         font-size: 1em;
         line-height: 1;
-        margin: 0 auto;
-        padding: 0;
-        width: 90%;
         }    
  
     h1 {
@@ -34,6 +31,13 @@ https://jigsaw.w3.org/css-validator/validator
 /* Adding this in so that my pictures shrink for a smaller screen*/
 	img { max-width: 100%; }
     iframe {max-width: 100%; }
+
+/* for responsive site -> the rest is at the end of this css file */
+    .ych_pagewrap {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        }
 
 /*Links in the text*/
     a { color: inherit;
@@ -66,6 +70,11 @@ https://jigsaw.w3.org/css-validator/validator
         text-align: left;
         padding: 0; margin: 0;   /* reset all padding and margins before adding in what's needed*/
         padding-left: 1%;
+        }
+    .ych_title {
+        padding-top: 2%;
+        padding-bottom: 1%;
+        font-size: 1.5em;
         }
     .ych_smallText {
         font-size: 0.75em;
@@ -235,6 +244,8 @@ https://jigsaw.w3.org/css-validator/validator
     .ych_offers{
         float: left;
         width: 40%;
+        }
+    .ych_offerDetail{
         border-color: black;
         border: solid 0.15em;
         border-radius: 25%;
@@ -265,6 +276,335 @@ https://jigsaw.w3.org/css-validator/validator
         padding-left: 1%;
         margin-right: 5%;
         }
+
+/* FOR RESPONSIVE DESIGN */
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+    .ych_pagewrap {
+        width: 100%;
+        }
+    .ych_writing {                    /* message from owners - handwriting style */
+        font-size: 1em;
+        }
+    .ych_logo {                    /* logo */  
+        font-size: 1.5em;  
+        padding-left: 1%;
+        }
+    .ych_title {
+        font-size: 1.2em;
+        }
+    .ych_smallText {
+        font-size: 0.75em;
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+        }
+    .ych_header{    /* header where we put the navigation menu and the site name */
+        width: 90%; 
+        padding-top: 1%;
+        padding-bottom: 1%;
+        }
+    .ych_header li {
+        width: 20%;
+        }
+    .ych_header li a {
+        font-size: 1em;
+        }
+    .ych_footer{    /*same as the header - without the position being fixed */
+        width: 100%;
+        }
+    .ych_homeLeft{
+	    float:left; 
+    	width: 47%;
+	    margin: 1%;
+        padding: 2%;
+        }
+    .ych_homeMiddle{
+        float: left;
+        width: 47% ;
+        margin-right: 1%;
+        }
+    .ych_homeRight{
+        float: left;
+        width: 47%;
+        margin: 1%;
+        padding: 2%;
+        }
+    .ych_main{
+        float:left; 
+    	width: 100%;
+        }
+    .ych_map{ 
+    	width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 2%;
+        }
+    .ych_galleryTop{
+        float: left;
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        }
+    .ych_galleryLeft{
+        float: left;
+        width: 49%;
+        margin: 1%;
+        margin-left: 0;
+        padding: 1%;
+        }	
+    .ych_galleryFrame{
+        float: left;
+        width: 49%;
+        margin: 1%;
+        margin-left: 0;
+        padding: 1%;
+        }	
+    .ych_galleryRight{
+        float: right;
+        width: 49%;  
+        }
+    .ych_galleryJava{
+        float: left;
+        width: 49%;  
+        }
+    .ych_offers{
+        float: left;
+        width: 44%;
+        }
+    .ych_imgR {
+        float: right;
+        margin-right: 5%;
+        }
+    .ych_bookclub{
+        float: right;
+        width: 44%;
+        }
+    .ych_menuSmall{
+        float: left;
+        width: 30%;
+        margin-left: 5%;
+        }
+    .ych_menu{
+        float: right;
+        width: 50%;
+        margin-right: 5%;
+        }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+    .ych_pagewrap {
+        width: 100%;
+        }
+    .ych_writing {                    /* message from owners - handwriting style */
+        font-size: 1.25em;
+        }
+    .ych_logo {                    /* logo */  
+        font-size: 1.5em;  
+        padding-left: 1%;
+        }
+    .ych_title {
+        font-size: .8em;
+        padding-top: 5%;
+        }
+    .ych_smallText {
+        font-size: 0.75em;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        }
+    .ych_header{    /* header where we put the navigation menu and the site name */
+        width: 98%; 
+        padding-top: 1%;
+        padding-bottom: 1%;
+        }
+    .ych_header li {
+        width: 25%;
+        }
+    .ych_header li a {
+        font-size: 0.8em;
+        }
+    .ych_footer{    /*same as the header - without the position being fixed */
+        width: 100%;
+        }
+    .ych_homeLeft{
+	    float:none; 
+    	width: 100%;
+	    margin: 0;
+        padding: 0;
+        }
+    .ych_homeMiddle{
+        float: none;
+        width: 100% ;
+        margin-right: 0;
+        }
+    .ych_homeRight{
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        }
+    .ych_main{
+        float:none; 
+    	width: 100%;
+        }
+    .ych_map{ 
+    	width: 100%;
+        margin: 0;
+        }
+    .ych_galleryTop{
+        float: none;
+        width: 100%;
+        margin: 0;
+        }
+    .ych_galleryLeft{
+        float: none;
+        width: 98%;
+        }	
+    .ych_galleryFrame{
+        float: none;
+        width: 98%;
+        }	
+    .ych_galleryRight{
+        float: none;
+        width: 98%;  
+        }
+    .ych_galleryJava{
+        float: none;
+        width: 100%;  
+        }
+    .ych_offers{
+        float: none;
+        width: 100%;
+        }
+    .ych_imgR {
+        float: right;
+        margin-right: 0;
+        }
+    .ych_bookclub{
+        float: none;
+        width: 100%;
+        }
+    .ych_menuSmall{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        }
+    .ych_menu{
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        }
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+    .ych_pagewrap {
+        width: 100%;
+        }
+    .ych_writing {                    /* message from owners - handwriting style */
+        font-size: 1.25em;
+        }
+    .ych_logo {                    /* logo */  
+        font-size: 1em;  
+        padding-left: 1%;
+        }
+    .ych_title {
+        padding-top: 20%;
+        font-size: 0.8em;
+        }
+    .ych_smallText {
+        font-size: 0.75em;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        }
+    .ych_header{    /* header where we put the navigation menu and the site name */
+        width: 98%; 
+        padding-top: 1%;
+        padding-bottom: 1%;
+        }
+    .ych_header li {
+        width: 25%;
+        font-size: 0.8em;
+        }
+    .ych_header li a {
+        font-size: 0.8em;
+        }
+    .ych_footer{    /*same as the header - without the position being fixed */
+        width: 100%;
+        }
+    .ych_homeLeft{
+	    float:none; 
+    	width: 100%;
+	    margin: 0;
+        padding: 0;
+        }
+    .ych_homeMiddle{
+        float: none;
+        width: 100% ;
+        margin-right: 0;
+        }
+    .ych_homeRight{
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        }
+    .ych_main{
+        float:none; 
+    	width: 100%;
+        }
+    .ych_map{ 
+    	width: 100%;
+        margin: 0;
+        }
+    .ych_galleryTop{
+        float: none;
+        width: 100%;
+        margin: 0;
+        }
+    .ych_galleryLeft{
+        float: none;
+        width: 98%;
+        }	
+    .ych_galleryFrame{
+        float: none;
+        width: 98%;
+        }	
+    .ych_galleryRight{
+        float: none;
+        width: 98%;  
+        }
+    .ych_galleryJava{
+        float: none;
+        width: 100%;  
+        }
+    .ych_offers{
+        float: none;
+        width: 100%;
+        }
+    .ych_imgR {
+        float: right;
+        margin-right: 0;
+        }
+    .ych_bookclub{
+        float: none;
+        width: 100%;
+        }
+    .ych_menuSmall{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        }
+    .ych_menu{
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        }
+}
+
 
 /*end of css Stylesheet 
 Last update: April 2017*/

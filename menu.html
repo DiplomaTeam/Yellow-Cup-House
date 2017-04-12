@@ -10,13 +10,21 @@ Yellow Cup House Coffee Shop Website -->
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<!-- This looks like a comment - but IE9 will process this comment differently.
-		You'll find this piece a code from a lot of webtools - the newer files won't have this in.
-		-->
+		<!--[if lte IE 9]> 
+	    <script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+        <![endif]-->
     <meta charset="UTF-8">
     <!-- meta data to allow searching of this site-->
     <meta name = "keywords" content="coffee, dublin, yellow, trinity, tea, lunch, cake, cheap, cup, house, value, good, shop">
-    
+    <meta name = "author" content="Elmarie Fryer & Filip Minarik"/>
+    <meta name="description" content="Yellow Cup House Dublin Ireland"/>
+    <meta name="Copyright" content="Yellow Cup House, Dublin Ireland" />
+    <meta name="google-site-verification" content="" />
+        <!-- site will be set-up on google so that the owners can track statistics one it's live on it's permanent site with a .ie domain name -->
+
+    <!--making site responsive -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+            
     <!-- stylesheets (incl Google fonts) and javascript used -->
         <link rel="stylesheet" href="css/ych.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
@@ -28,6 +36,7 @@ Yellow Cup House Coffee Shop Website -->
 		
 </head>
 <body>
+<div class = 'ych_pagewrap'>    
     <div class='ych_header'>
             <!-- Header and Toolbar in a separate section so that the formatting can be different-->
         <img class = 'ych_logo' src="images/LogoBasic.jpg" alt="Yellow Coffee House Logo" height = "55" width = "55" />
@@ -41,8 +50,9 @@ Yellow Cup House Coffee Shop Website -->
             <li><a href ="gallery.html">Gallery</a></li>
         </ul>      
     </div>	
-
+    <div class='ych_title'>
     <h1>Menus</h1>
+    </div>
       <!-- 
       The menu's were in table format to start with which is more accessible for users of the webpages, but the client is not particularly technical and was daunted by the prospect of updating code.  Having the menus in an excel format that they are familiar with allows easy updating of the data.  The pictures are saved from the excel file as pictures which will automatically update when the page is reloaded.
       -->
@@ -101,6 +111,7 @@ Yellow Cup House Coffee Shop Website -->
             </tr>
         </table>
     </div>
-    
+
+</div>    
 </body>
 </html>

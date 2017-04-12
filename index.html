@@ -1,3 +1,7 @@
+<!--Web Group Project
+Elmarie Fryer (16135296), Filip Minarik (16135261)
+Yellow Cup House Coffee Shop Website -->
+    
 <!DOCTYPE html >   
 <html lang="en-IE">
 
@@ -6,13 +10,22 @@
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<!-- This looks like a comment - but IE9 will process this comment differently.
-		You'll find this piece a code from a lot of webtools - the newer files won't have this in.
-		-->
+        <!--[if lte IE 9]> 
+	    <script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+        <![endif]-->
     <meta charset="UTF-8">
     <!-- meta data to allow searching of this site-->
     <meta name = "keywords" content="coffee, dublin, yellow, trinity, tea, lunch, cake, cheap, cup, house, value, good, shop">
-    
+    <meta name = "author" content="Elmarie Fryer & Filip Minarik"/>
+    <meta name="description" content="Yellow Cup House Dublin Ireland"/>
+    <meta name="Copyright" content="Yellow Cup House, Dublin Ireland" />
+    <meta name="google-site-verification" content="" />
+        <!-- site will be set-up on google so that the owners can track statistics one it's live on it's permanent site with a .ie domain name -->
+
+
+    <!--making site responsive -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            
     <!-- stylesheets (incl Google fonts) and javascript used -->
         <link rel="stylesheet" href="css/ych.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
@@ -25,7 +38,7 @@
 </head>
 
 <body>
-
+<div class = 'ych_pagewrap'> 
     <div class='ych_header'>
             <!-- Header and Toolbar in a separate section so that the formatting can be different-->
         <img class = 'ych_logo' src="images/LogoBasic.jpg" alt="Yellow Coffee House Logo" height = "55" width = "55" />
@@ -39,9 +52,9 @@
             <li><a href ="gallery.html">Gallery</a></li>
         </ul>      
     </div>
-
+    <div class='ych_title'>
     <h1>Welcome to the Yellow Cup House Website</h1>  
-             
+    </div>         
     <div class='ych_homeLeft'>
 	    <h1 class='ych_writing'>
 	    Our Story
@@ -106,6 +119,6 @@
             </tr>
         </table>
     </div>
-    	
+</div>    	
 </body>
 </html>
