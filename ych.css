@@ -1,0 +1,275 @@
+/* Style Sheet for Yellow Cup House:
+    ** EF = Elmarie Fryer (NCIRL Student #: 16135296)
+    ** FM = Filip Minarik (NCIRL Student #: 16135261)
+    */
+
+
+/* General appearance
+ 	Load 2 google stylesheets in the html header:
+		<link href='//fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  		<link href='//fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
+	*/
+    html {
+    background: #e6e9e9;
+        }
+    body {
+        background: #a09080;
+        color: antiquewhite;
+        font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        line-height: 1;
+        margin: 0 auto;
+        width: 98%;
+        padding: 1%;
+        float: left;
+        }    
+    header {
+        background: #a09080;
+        color: antiquewhite;
+        font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+        font-size: 1em;
+        line-height: 1;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        }    
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        line-height: 2em;
+        }
+/*
+    table {
+        border: 0.2em solid saddlebrown; 
+        width: 100%;
+    }
+    th, td { 
+        border: 0.1em solid saddlebrown; 
+        padding: 1px;      
+        margin: 2px; 
+    }       
+*/
+
+    /*Links in the text (EF)*/
+    a { color: inherit;
+        text-decoration: none; }
+    a:link { color: inherit;
+        text-decoration: none;} 
+    a:visited { color: inherit;
+        text-decoration: underline; }
+    a:hover { 
+        color: gold; }
+    /*lists */
+    ul { 
+        list-style-type: circle; 
+        color: antiquewhite;}
+    ul li a { 
+        font-family: cursive} 
+
+    .ych_writing {                    /* message from owners - handwriting style */
+        font-family: "Euphoria Script", cursive;        
+        text-align: center;
+        font-size: 1.25em;
+        }
+    .ych_logo {                    /* logo */
+        color: gold;    
+        font-size: 2em;  
+        float: left;  
+        text-align: left;
+        padding: 0; margin: 0;
+        }
+.ych_smallText {
+    font-size: 0.75em;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.ych_smallText table {
+    text-align: left;
+}
+/* Setting up divisions for page areas (EF) */
+/* all pages */
+
+
+.ych_header{    /* header where we put the navigation menu and the site name */
+                /* footer is exactly the same except for the fixed position*/
+    width: 96%; /*makes the menu width the same as the window width - cannot be 100% due to the padding*/ 
+    float: left;/*floats the list left*/
+    margin: 0 0 0 0; /*removes marging*/
+    padding-right: 0;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 0.5%;
+    list-style-type: none;
+    background-color: #708090;
+    border-bottom: 0.2em solid #000;
+    border-top: 0.2em solid #000;
+    border-left: 0.2em solid #000;  
+    border-right: 0.2em solid #000;
+    position: fixed; /* Make it stick, even on scroll */
+    }
+
+.ych_header ul { 
+    list-style: none; /*removes bullets from the list*/ 
+    } 
+.ych_header li {
+    float: left; /*floats list items left*/
+    width: 15%;
+    text-align: center;
+    }
+.ych_header li a {
+    font-family: inherit;font: inherit;color: inherit;
+    color: black;
+    display: block; /*fills up the entire list item and makes the whole area clickable*/
+    padding: 0.1em; /*padding will space them out a bit but not as much as the title*/ 
+    text-decoration: none; /*removes the underline from the anchor*/ 
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+
+.ych_header li a:hover {
+    color: gold;
+    background-color: #a09080;
+    }
+.ych_header a:hover {
+    color: gold;
+    background-color: #a09080;
+    }
+
+.ych_footer{    /*same as the header - without the position being fixed */
+    width: 98%; /*makes the menu width the same as the window width - cannot be 100% due to the padding  => 2 wider that the heading because we don't have the picture, etc with padding - so less spaces used by that*/ 
+    float: left;/*floats the list left*/
+    margin: 0 0 0 0; /*removes marging*/
+    padding-right: 0;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 0.5%;
+    list-style-type: none;
+    background-color: #708090;
+    border-bottom: 0.2em solid #000;
+    border-top: 0.2em solid #000;
+    border-left: 0.2em solid #000;  
+    border-right: 0.2em solid #000;
+    }
+
+.ych_main{
+    float:left; 
+	width: 100%;
+    }
+.ych_map{ 
+	width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    }
+
+/* homepage only */
+.ych_homeLeft{
+	float:left; 
+	width: 24%;
+	margin: 1%;
+    margin-left: 0;
+    padding: 2%;
+    }
+.ych_homeMiddle{
+    float: left;
+    width: 40 ;
+	margin: 1%;
+    margin-left: 0;
+    padding: 2%;
+background: #708090;
+text-align: center;
+    }
+.ych_homeRight{
+    float: left;
+    width: 20%;
+    margin: 1%;
+    margin-left: 0;
+    padding: 2%;
+    border-color: antiquewhite;
+    border: solid 0.15em;
+    border-radius: 25%;
+    text-align: center;
+    }
+
+/* for the galley page */
+.ych_galleryTop{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    font-size: 1em;   
+    }
+.ych_galleryLeft{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    margin-left: 0;
+    padding: 1%;
+    }	
+.ych_galleryFrame{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    margin-left: 0;
+    padding: 1%;
+    border-color: antiquewhite;
+    border: solid 0.15em;
+    border-radius: 5%;
+    }	
+
+.ych_galleryRight{
+    float: right;
+    width: 30%;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1%;    
+    }
+.ych_galleryJava{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 1%;
+    background: #9999ff;    
+    }
+/* For the Special Offers PAge */
+.ych_offers{
+    float: left;
+    width: 40%;
+    border-color: black;
+    border: solid 0.15em;
+    border-radius: 25%;
+    margin: 2%;
+    padding: 1%;
+    }
+.ych_imgR {
+    float: right;
+    margin-right: 5%;
+}
+.ych_bookclub{
+    float: right;
+    width: 50%;
+    }
+/*Menus*/
+.ych_menuSmall{
+    text-align: left;
+    float: left;
+    width: 30%;
+    padding-right: 1%;
+    margin-left: 5%;
+}
+.ych_menu{
+    text-align: left;
+    float: right;
+    width: 50%;
+    padding-left: 1%;
+    margin-right: 5%;
+    
+}
