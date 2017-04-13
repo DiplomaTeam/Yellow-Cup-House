@@ -421,6 +421,8 @@ https://jigsaw.w3.org/css-validator/validator
         }
     .ych_header li {
         width: 25%;
+        padding-bottom: 3%;
+        padding-top: 3%;
         }
     .ych_header li a {
         font-size: 0.8em;
@@ -528,6 +530,8 @@ https://jigsaw.w3.org/css-validator/validator
     .ych_header li {
         width: 25%;
         font-size: 0.8em;
+        padding-bottom: 3%;
+        padding-top: 3%;
         }
     .ych_header li a {
         font-size: 0.8em;
