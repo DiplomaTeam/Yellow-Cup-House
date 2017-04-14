@@ -195,50 +195,25 @@ https://jigsaw.w3.org/css-validator/validator
         }
 
 /* for the galley page */
-    .ych_galleryTop{
+    .ych_galleryColumn{
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 0;
-        margin-top: 0;
-        padding: 0;
+        width: 30%;
+        margin: 0.5%;
+        padding: 1%;
         font-size: 1em;   
         }
-    .ych_galleryLeft{
-        float: left;
-        width: 30%;
-        margin: 1%;
-        margin-left: 0;
-        padding: 1%;
+    .ych_galleryPicture{
+        float: inherit;
+        padding: 0.5%;
+        width: 100%;
         }	
     .ych_galleryFrame{
-        float: left;
-        width: 30%;
-        margin: 1%;
-        margin-left: 0;
+        float: inherit;
         padding: 1%;
         border-color: antiquewhite;
         border: solid 0.15em;
         border-radius: 5%;
         }	
-    .ych_galleryRight{
-        float: right;
-        width: 30%;
-        margin: 1%;
-        margin-right: 0;
-        margin-left: 0;
-        padding: 1%;    
-        }
-    .ych_galleryJava{
-        float: left;
-        width: 30%;
-        margin: 1%;
-        margin-right: 0;
-        margin-left: 0;
-        padding: 1%;
-        background: #9999ff;    
-        }
 
 /* For the Special Offers Page */
     .ych_offers{
@@ -340,34 +315,21 @@ https://jigsaw.w3.org/css-validator/validator
         margin-right: 1%;
         margin-bottom: 2%;
         }
-    .ych_galleryTop{
-        float: left;
-        width: 98%;
-        margin-left: 1%;
-        margin-right: 1%;
-        }
-    .ych_galleryLeft{
+    .ych_galleryColumn{
         float: left;
         width: 49%;
-        margin: 1%;
-        margin-left: 0;
-        padding: 1%;
+        }
+    .ych_galleryPicture{
         }	
     .ych_galleryFrame{
+        }
+        .ych_galleryColumn{
         float: left;
-        width: 49%;
-        margin: 1%;
-        margin-left: 0;
+        width: 30%;
+        margin: 0.5%;
         padding: 1%;
-        }	
-    .ych_galleryRight{
-        float: right;
-        width: 49%;  
-        }
-    .ych_galleryJava{
-        float: left;
-        width: 49%;  
-        }
+        font-size: 1em;   
+        }		
     .ych_offers{
         float: left;
         width: 44%;
@@ -421,8 +383,8 @@ https://jigsaw.w3.org/css-validator/validator
         }
     .ych_header li {
         width: 25%;
-        padding-bottom: 3%;
-        padding-top: 3%;
+        padding-bottom: 1.5%;
+        padding-top: 1.5%;
         }
     .ych_header li a {
         font-size: 0.8em;
@@ -455,31 +417,18 @@ https://jigsaw.w3.org/css-validator/validator
     	width: 100%;
         margin: 0;
         }
-    .ych_galleryTop{
-        float: none;
+    .ych_galleryColumn{
         width: 100%;
         margin: 0;
         }
-    .ych_galleryLeft{
-        float: none;
-        width: 98%;
+    .ych_galleryPicture{
         }	
     .ych_galleryFrame{
-        float: none;
-        width: 98%;
         }	
-    .ych_galleryRight{
-        float: none;
-        width: 98%;  
-        }
-    .ych_galleryJava{
-        float: none;
-        width: 100%;  
-        }
     .ych_offers{
         float: none;
         width: 100%;
-        }
+        }		
     .ych_imgR {
         float: right;
         margin-right: 0;
@@ -524,14 +473,12 @@ https://jigsaw.w3.org/css-validator/validator
         }
     .ych_header{    /* header where we put the navigation menu and the site name */
         width: 98%; 
-        padding-top: 1%;
-        padding-bottom: 1%;
         }
     .ych_header li {
         width: 25%;
         font-size: 0.8em;
-        padding-bottom: 3%;
-        padding-top: 3%;
+        padding-bottom: 1.5%;
+        padding-top: 1.5%;
         }
     .ych_header li a {
         font-size: 0.8em;
@@ -564,26 +511,13 @@ https://jigsaw.w3.org/css-validator/validator
     	width: 100%;
         margin: 0;
         }
-    .ych_galleryTop{
-        float: none;
+    .ych_galleryColumn{
         width: 100%;
         margin: 0;
         }
-    .ych_galleryLeft{
-        float: none;
-        width: 98%;
+    .ych_galleryPicture{
         }	
     .ych_galleryFrame{
-        float: none;
-        width: 98%;
-        }	
-    .ych_galleryRight{
-        float: none;
-        width: 98%;  
-        }
-    .ych_galleryJava{
-        float: none;
-        width: 100%;  
         }
     .ych_offers{
         float: none;
